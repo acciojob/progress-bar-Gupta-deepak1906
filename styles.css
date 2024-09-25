@@ -36,7 +36,7 @@ body{
 	height: 4px;
 	background-color: #3498db;
 	transform: translateY(-50%);
-    width: 0%
+    width: 0%;
 	transition: width 0.3s;
 	z-index: -1; 
 	
@@ -71,7 +71,7 @@ body{
 	margin: 10px;
 	transition: background-color 0.3s;
 }
-.btn:disabled{
+.btn:disabled {
 	background: #b3c0c6;
-	cursor: not-allowed:
+	cursor: not-allowed;
 }
