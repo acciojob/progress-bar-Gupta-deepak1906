@@ -1,8 +1,8 @@
 //your JS code here. If required.
-const progress = documnet.getElementById("progress");
-const prev = documnet.getElementById("prev");
-const next = documnet.getElementById("next");
-const circles = documnet.getElementById("circles");
+const progress = documnet.getElementById('progress');
+const prev = documnet.getElementById('prev');
+const next = documnet.getElementById('next');
+const circles = documnet.getElementById('circles');
 
 let currentActive=1;
 
