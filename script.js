@@ -25,7 +25,7 @@ prev.addEventListener('click' () => {
 });
 
 function(update()){
-	circles.forEach((circle,idx) => {
+	circles.forEach((circle, idx) => {
 		if (idx<currentActive) 
 		{
 			circle.classList.add('active');
@@ -35,8 +35,8 @@ function(update()){
 			circle.classList.remove('active');
 		}
 	});
-	const actives = document.querySelectorAll('.active');
-	progress.style.width = ((actives.length -1)/(circles.length-1)) *100 +'%';
+	//const actives = document.querySelectorAll('.active');
+	//progress.style.width = ((actives.length -1)/(circles.length-1)) *100 +'%';
 
 	if (currentActive===1) {
 		prev.disabled=true;
